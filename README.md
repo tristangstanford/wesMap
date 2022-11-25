@@ -30,5 +30,5 @@ Use MATALBs `flipud(A)` function, i.e., `colormap flipud(wesMap('Isle'))`
 
 `Budapest`, `Calvacanti`, `Chevalier`, `Darjeeling`, `Fox`, `Isle`, `MoonriseSam`, `MoonriseSuzy`, `Rushmore`, `Tenenbaums`, `Zissou`
 
-![wesMap color key](/assets/wesMap_color_key.tif)
+![wesMap color key](/assets/wesMap_color_key.jpg)
 
