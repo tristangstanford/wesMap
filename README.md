@@ -1,7 +1,8 @@
 # wesMap
  Wes Anderson themed colormap generator for MATLAB
 
-Inspired by Patrick Rafter (https://www.prafter.com/color) and Karthik Ram https://github.com/karthik/wesanderson
+Inspired by Patrick Rafter (https://www.prafter.com/color) and Karthik Ram https://github.com/karthik/wesanderson.
+
 Original colormaps are replicated from Patrick Rafter.
 
 ## Installation
@@ -29,5 +30,5 @@ Use MATALBs `flipud(A)` function, i.e., `colormap flipud(wesMap('Isle'))`
 
 `Budapest`, `Calvacanti`, `Chevalier`, `Darjeeling`, `Fox`, `Isle`, `MoonriseSam`, `MoonriseSuzy`, `Rushmore`, `Tenenbaums`, `Zissou`
 
-!(wesMap_color_key.tif)
+![wesMap color key](/wesMap_color_key.tif)
 
