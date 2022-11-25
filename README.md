@@ -16,9 +16,11 @@ To install, copy the `wesMap` folder to your computer and add it to your MATLAB 
 
 The function `wesMap(map_name, num_colors)` function takes a required `map_name` and optional `num_colors` input. `map_name` is a string with the name of the desired colormap: see below for options. `num_colors` is the optional desired number of colors to discretize the map to. 
 
+Note that the syntax must be `colormap(wesMap())`, not `colormap wesMap()`.
+
 ### Discrete colors
 
-Use `num_colors` in place of the `colormap name(number)` functionality for MATLAB default colomaps. I.e., `colormap parula(5)` could be replaced with `colormap wesMap('Isle',5)`
+Use `num_colors` in place of the `colormap name(number)` functionality for MATLAB default colomaps. I.e., `colormap(parula(5))` could be replaced with `colormap(wesMap('Isle',5))`. 
 
 ### Reverse colors
 
