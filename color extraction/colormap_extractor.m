@@ -1,6 +1,7 @@
 %% script to import .pal as matlab colormap vector
 
-files = [dir('*FWD-10.pal'); dir('*10-FWD.pal')];
+files = dir('*.pal');
+%files = [dir('*FWD-10.pal'); dir('*10-FWD.pal')];
 map = struct;
 
 for ii = 1:numel(files)

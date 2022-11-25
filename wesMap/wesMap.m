@@ -8,7 +8,7 @@ function cmapnew = wesMap(map_name, num_colors)
 load WesAndersonColors.mat map
 
 for ii = 1:numel(map)
-    if strcmp(map(ii).name,[map_name 'FWD10']) || strcmp(map(ii).name,[map_name '10FWD'])
+    if strcmp(map(ii).name,[map_name]) || strcmp(map(ii).name,[map_name 'FWD'])
         data = map(ii).data;
     end
 end
