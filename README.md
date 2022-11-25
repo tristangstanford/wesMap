@@ -7,7 +7,7 @@ Original colormaps are replicated from Patrick Rafter.
 
 ## Installation
 
-To install, copy the main folder to your computer and add it to your matlab path: 
+To install, copy the `wesMap` folder to your computer and add it to your MATLAB path: 
 1. Navigate to MATLAB->Home->Set path
 2. 'Add folder...' and select the wesMap folder. You do not need to include the colormap generator subfolder folder.
 3. Save and close
@@ -30,5 +30,5 @@ Use MATALBs `flipud(A)` function, i.e., `colormap flipud(wesMap('Isle'))`
 
 `Budapest`, `Calvacanti`, `Chevalier`, `Darjeeling`, `Fox`, `Isle`, `MoonriseSam`, `MoonriseSuzy`, `Rushmore`, `Tenenbaums`, `Zissou`
 
-![wesMap color key](/wesMap_color_key.tif)
+![wesMap color key](/assets/wesMap_color_key.tif)
 
